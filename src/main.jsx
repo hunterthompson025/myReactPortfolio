@@ -11,7 +11,7 @@ import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
 import Error from './pages/Error.jsx';
 
-const Router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
