@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>
         I graduated from Arizona State University in 2017. I am currently
         enrolled in the University of California Berkeley Extension Coding
