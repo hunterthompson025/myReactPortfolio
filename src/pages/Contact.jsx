@@ -1,20 +1,22 @@
 export default function Contact() {
     return (
         <div>
-            <h1>Contact Me</h1>
-            <form action="">
-                <div>
-                    <label htmlFor="">Name:</label>
-                    <input type="text" />
+            <h2>Contact</h2>
+            <form>
+                <div className="mb-3">
+                    <label for="name" className="form-label">Name:</label>
+                    <input type="text" className="form-control" id="name" />
                 </div>
-                <div>
-                    <label htmlFor="">Email:</label>
-                    <input type="text" />
+                <div className="mb-3">
+                    <label for="email" className="form-label">Email address:</label>
+                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
+                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div>
-                    <label htmlFor="">Message:</label>
-                    <input type="text" />
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
                 </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         </div>
     );
