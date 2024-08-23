@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.github-icon {
+  color: black;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+}
+
+.dev-icon {
+  color: black;
+}
+
+.background { 
+  height: 65vh;
+  width: 60vw;
+}
