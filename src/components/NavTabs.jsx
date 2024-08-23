@@ -4,11 +4,11 @@ function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
-        <header className="mt-5">
+        <header>
             <div className="container">
                 <div className="row align-items-center">
                     <h1 className="col-4">Hunter Thompson</h1>
-                    <ul className="col-8 nav nav-tabs nav-fill mb-3" id="pills-tab" role="tablist">
+                    <ul className="col-8 nav nav-tabs nav-fill mb-2" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <Link
                                 to="/"
