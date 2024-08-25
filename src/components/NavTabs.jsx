@@ -11,14 +11,6 @@ function NavTabs() {
                     <ul className="col-8 nav nav-tabs nav-fill mb-2" id="pills-tab" role="tablist">
                         <li className="nav-item" role="presentation">
                             <Link
-                                to="/"
-                                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                            >
-                                Home
-                            </Link>
-                        </li>
-                        <li className="nav-item" role="presentation">
-                            <Link
                                 to="/About"
                                 className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
                             >
