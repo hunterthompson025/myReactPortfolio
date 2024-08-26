@@ -1,3 +1,10 @@
+:root {
+  --dark-background: #142d4c;
+  --font-text: #ececec;
+  --navbar-background: #9fd3c7;
+  --footer-background: #385170;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,17 +12,54 @@
   text-align: center;
 }
 
-.github-icon {
-  color: black;
+.nav-header {
+  background-color: var(--navbar-background);
+  color: var(--font-text);
 }
 
-.linkedin-icon {
-  color: #0077b5;
+body {
+  background-color: var(--dark-background);
+  color: var(--font-text);
+  margin: 0;
+  padding: 0;
 }
 
+a {
+  color: var(--font-text);
+  text-decoration: none; /* Optional: removes the underline from the links */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+.nav-link {
+  color: var(--font-text);
+  text-decoration: none;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: var(--font-text); /* Ensure active links also use the same color */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+.github-icon,
+.linkedin-icon,
 .dev-icon {
-  color: black;
+  color: var(--font-text);
 }
+
+.github-icon:hover,
+.linkedin-icon:hover,
+.dev-icon:hover {
+  color: var(--font-text);
+  opacity: 0.8; /* Optional: adds a slight opacity effect on hover */
+}
+
 
 .portfolio-container {
   display: flex;
