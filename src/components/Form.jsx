@@ -106,7 +106,7 @@ function Form() {
             </form>
             {errorMessage && (
                 <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <p className="error-text text-start">{errorMessage}</p>
                 </div>
             )}
         </div>

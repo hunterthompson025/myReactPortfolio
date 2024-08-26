@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="text-center">
       <h2 className="mb-4">About Me</h2>
       <img className='mb-4' src='./src/assets/images/headshot-small.jpg' alt="Headshot image" />
       <p className="mb-4">

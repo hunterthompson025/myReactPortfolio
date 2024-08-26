@@ -4,7 +4,7 @@ function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
-        <header>
+        <header className='nav-header'>
             <div className="container">
                 <div className="row align-items-center">
                     <h1 className="col-4">Hunter Thompson</h1>
