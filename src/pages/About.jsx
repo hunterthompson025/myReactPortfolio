@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="text-center">
       <h2 className="mb-4">About Me</h2>
-      <img className='mb-4' src='./src/assets/images/headshot-small.jpg' alt="Headshot image" />
+      <img className='mb-4' src='./public/assets/images/headshot-small.jpg' alt="Headshot image" />
       <p className="mb-4">
         I graduated from Arizona State University in 2017. I am currently
         enrolled in the University of California Berkeley Extension Coding
